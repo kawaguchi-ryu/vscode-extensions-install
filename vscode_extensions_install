@@ -1,0 +1,27 @@
+#!/bin/sh
+
+# Visual Studio Code :: Package list
+pkglist=(
+MS-CEINTL.vscode-language-pack-ja
+azemoh.one-monokai
+bmewburn.vscode-intelephense-client
+CoenraadS.bracket-pair-colorizer-2
+donjayamanne.githistory
+ecmel.vscode-html-css
+felixfbecker.php-pack
+GitHub.github-vscode-theme
+liximomo.sftp
+mosapride.zenkaku
+ms-azuretools.vscode-docker
+octref.vetur #vueの拡張機能
+oderwat.indent-rainbow
+PKief.material-icon-theme
+ritwickdey.LiveServer
+streetsidesoftware.code-spell-checker
+)
+
+
+for var in ${pkglist[@]}
+do
+    code --install-extension $var
+done
