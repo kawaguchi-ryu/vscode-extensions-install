@@ -1,0 +1,29 @@
+{
+    "window.zoomLevel": 0,
+    "editor.renderWhitespace": "all",
+    "editor.wordWrap": "on",
+    "editor.detectIndentation": false,
+    "editor.fontSize": 16,
+    "editor.fontFamily": "Ricty Diminished,Menlo, Monaco, 'Courier New', monospace",
+    "editor.lineHeight": 20,
+    "vsnotes.defaultNotePath": "/Users/ryu/Dropbox/07_vsnotes",
+    "terminal.integrated.fontSize": 16,
+    "workbench.colorTheme": "GitHub Dark",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "[css]": {
+        "editor.tabSize": 2,
+        "editor.suggest.insertMode": "replace",
+        "editor.defaultFormatter": "aeschli.vscode-css-formatter"
+    },
+    "[scss]": {
+        "editor.tabSize": 2,
+        "editor.suggest.insertMode": "replace"
+    },
+    "[php]": {
+        "editor.tabSize": 4,
+        "editor.suggest.insertMode": "replace"
+    },
+    "editor.fontWeight": "100",
+}
